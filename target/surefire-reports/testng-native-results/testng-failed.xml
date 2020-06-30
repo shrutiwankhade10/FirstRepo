@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Come.SecondTest">
+        <methods>
+          <include name="Spice"/>
+        </methods>
+      </class> <!-- Come.SecondTest -->
+      <class name="Come.FirstTest">
+        <methods>
+          <include name="invalid"/>
+          <include name="jui"/>
+        </methods>
+      </class> <!-- Come.FirstTest -->
+      <class name="Come.FifthTest">
+        <methods>
+          <include name="dynamicdwn"/>
+          <include name="endikj"/>
+        </methods>
+      </class> <!-- Come.FifthTest -->
+      <class name="Come.SixthTest">
+        <methods>
+          <include name="huio" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- Come.SixthTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

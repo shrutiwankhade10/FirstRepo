@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="4" name="test4(failed)" parallel="tests">
+    <classes>
+      <class name="Come.SecondTest">
+        <methods>
+          <include name="Spice"/>
+        </methods>
+      </class> <!-- Come.SecondTest -->
+      <class name="Come.FourthTest">
+        <methods>
+          <include name="trail"/>
+          <include name="drag"/>
+        </methods>
+      </class> <!-- Come.FourthTest -->
+    </classes>
+  </test> <!-- test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
